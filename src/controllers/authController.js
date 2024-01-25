@@ -17,7 +17,7 @@ const {
   forgotPasswordSchema,
   resetPasswordSchema,
   verifyEmailRequestSchema,
-} = require("../Validators/validation");
+} = require("../validators/auth");
 
 // Controller for user sign-up
 const signupUser = async (req, res) => {

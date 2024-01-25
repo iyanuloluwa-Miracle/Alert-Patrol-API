@@ -46,7 +46,6 @@ const generateRefreshToken = () => {
   return refreshToken;
 };
 module.exports = {
-  generateAccessToken,
   verifyToken,
   generateRefreshToken,
   generateLongToken,
