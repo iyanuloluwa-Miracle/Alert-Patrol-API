@@ -4,13 +4,13 @@ const argon2 = require("argon2");
 const {
   generateRefreshToken,
   generateLongToken,
-} = require("../Utils/authUtils");
+} = require("../utils/authUtils");
 const {
   sendResetTokenByEmail,
   generateResetToken,
   validateResetToken,
   sendVerificationEmail,
-} = require("../Services/authService");
+} = require("../services/authService");
 const {
   userRegistrationSchema,
   userLoginSchema,
