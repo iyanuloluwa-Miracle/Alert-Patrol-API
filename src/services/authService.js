@@ -59,7 +59,7 @@ const sendVerificationEmail = async (email, verificationLink, username) => {
     const data = {
       from: "Alert-patrol@gmail.com", // replace with your sender email
       to: email,
-      subject: "Unicon Account Verification",
+      subject: "Alert-patrol Account Verification",
       text: `
        Dear ${username}, thank you for creating an account with Unicon. Kindly verify your email address by clicking on the link below.  
        ${verificationLink}             
