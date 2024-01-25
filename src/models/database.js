@@ -12,3 +12,6 @@ mongoose
   .catch((error) => {
     console.error("Error connecting to MongoDB", error);
 });
+
+//Models
+require("./users");

@@ -12,7 +12,7 @@ app.get('/', async (req, res, next) => {
   res.send({ message: 'Welcome to Alert Patrol 🐻' });
 });
 
-app.use('/api', require('./src/routes/api.route'));
+app.use('/api', require("./src/routes/auth.route"));
 
 app.use((req, res, next) => {
   next(createError.NotFound());
